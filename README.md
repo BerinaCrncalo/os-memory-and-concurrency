@@ -1,2 +1,2 @@
 # os-memory-and-concurrency
-college project regarding memory and concurrency.
+Project regarding memory and concurrency.
