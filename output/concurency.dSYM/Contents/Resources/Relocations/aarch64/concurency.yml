@@ -2,18 +2,13 @@
 triple:          'arm64-apple-darwin'
 binary-path:     '/Users/berinnacrncalo/Desktop/osproject2&3/os-memory-and-concurrency/output/concurency'
 relocations:
-  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _agent, symObjAddr: 0x0, symBinAddr: 0x100003C04, symSize: 0xBC }
-  - { offsetInCU: 0x4D, offset: 0x4D, size: 0x8, addend: 0x0, symName: _tobacco, symBinAddr: 0x100008018, symSize: 0x0 }
-  - { offsetInCU: 0x74, offset: 0x74, size: 0x8, addend: 0x0, symName: _paper, symBinAddr: 0x100008010, symSize: 0x0 }
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _agent, symObjAddr: 0x0, symBinAddr: 0x100003C74, symSize: 0xBC }
+  - { offsetInCU: 0x4D, offset: 0x4D, size: 0x8, addend: 0x0, symName: _tobacco, symBinAddr: 0x100008010, symSize: 0x0 }
+  - { offsetInCU: 0x74, offset: 0x74, size: 0x8, addend: 0x0, symName: _paper, symBinAddr: 0x10000800C, symSize: 0x0 }
   - { offsetInCU: 0x89, offset: 0x89, size: 0x8, addend: 0x0, symName: _matches, symBinAddr: 0x100008004, symSize: 0x0 }
   - { offsetInCU: 0x9E, offset: 0x9E, size: 0x8, addend: 0x0, symName: _agentSem, symBinAddr: 0x100008000, symSize: 0x0 }
-  - { offsetInCU: 0xB3, offset: 0xB3, size: 0x8, addend: 0x0, symName: _tobaccoSem, symBinAddr: 0x10000801C, symSize: 0x0 }
-  - { offsetInCU: 0xC8, offset: 0xC8, size: 0x8, addend: 0x0, symName: _paperSem, symBinAddr: 0x100008014, symSize: 0x0 }
-  - { offsetInCU: 0xDD, offset: 0xDD, size: 0x8, addend: 0x0, symName: _matchesSem, symBinAddr: 0x100008008, symSize: 0x0 }
-  - { offsetInCU: 0xF2, offset: 0xF2, size: 0x8, addend: 0x0, symName: _mutex, symBinAddr: 0x10000800C, symSize: 0x0 }
-  - { offsetInCU: 0xFC, offset: 0xFC, size: 0x8, addend: 0x0, symName: _agent, symObjAddr: 0x0, symBinAddr: 0x100003C04, symSize: 0xBC }
-  - { offsetInCU: 0x140, offset: 0x140, size: 0x8, addend: 0x0, symName: _smoker_with_tobacco, symObjAddr: 0xBC, symBinAddr: 0x100003CC0, symSize: 0x60 }
-  - { offsetInCU: 0x168, offset: 0x168, size: 0x8, addend: 0x0, symName: _smoker_with_paper, symObjAddr: 0x11C, symBinAddr: 0x100003D20, symSize: 0x60 }
-  - { offsetInCU: 0x190, offset: 0x190, size: 0x8, addend: 0x0, symName: _smoker_with_matches, symObjAddr: 0x17C, symBinAddr: 0x100003D80, symSize: 0x60 }
-  - { offsetInCU: 0x1B8, offset: 0x1B8, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x1DC, symBinAddr: 0x100003DE0, symSize: 0x120 }
+  - { offsetInCU: 0xB3, offset: 0xB3, size: 0x8, addend: 0x0, symName: _mutex, symBinAddr: 0x100008008, symSize: 0x0 }
+  - { offsetInCU: 0xC2, offset: 0xC2, size: 0x8, addend: 0x0, symName: _agent, symObjAddr: 0x0, symBinAddr: 0x100003C74, symSize: 0xBC }
+  - { offsetInCU: 0x106, offset: 0x106, size: 0x8, addend: 0x0, symName: _smoker, symObjAddr: 0xBC, symBinAddr: 0x100003D30, symSize: 0x70 }
+  - { offsetInCU: 0x14A, offset: 0x14A, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x12C, symBinAddr: 0x100003DA0, symSize: 0x198 }
 ...
